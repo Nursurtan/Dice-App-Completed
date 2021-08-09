@@ -97,7 +97,7 @@
                     </view>
                     <connections>
                         <outlet property="diceImageViewOne" destination="4fQ-FF-RVD" id="0PW-uZ-ajq"/>
-                        <outlet property="diceImageViewTwo" destination="FOG-RX-nGc" id="4vk-y2-hUG"/>
+                        <outlet property="diceImageViewTwo" destination="FOG-RX-nGc" id="7gV-Kt-SQF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

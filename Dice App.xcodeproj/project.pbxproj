@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B123BCF526C1778600F3AC15 /* rolling dice 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B123BCF426C1778600F3AC15 /* rolling dice 2.mp3 */; };
 		B1D262DC26879205000F44DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D262DB26879205000F44DF /* AppDelegate.swift */; };
 		B1D262DE26879205000F44DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D262DD26879205000F44DF /* SceneDelegate.swift */; };
 		B1D262E026879205000F44DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D262DF26879205000F44DF /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B123BCF426C1778600F3AC15 /* rolling dice 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rolling dice 2.mp3"; sourceTree = "<group>"; };
 		B1D262D826879205000F44DF /* Dice App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D262DB26879205000F44DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1D262DD26879205000F44DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B123BCF326C176B000F3AC15 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				B123BCF426C1778600F3AC15 /* rolling dice 2.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		B1D262CF26879205000F44DF = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		B1D262DA26879205000F44DF /* Dice App */ = {
 			isa = PBXGroup;
 			children = (
+				B123BCF326C176B000F3AC15 /* Sound */,
 				B1D262DB26879205000F44DF /* AppDelegate.swift */,
 				B1D262DD26879205000F44DF /* SceneDelegate.swift */,
 				B1D262DF26879205000F44DF /* ViewController.swift */,
@@ -126,6 +137,7 @@
 			files = (
 				B1D262E826879205000F44DF /* LaunchScreen.storyboard in Resources */,
 				B1D262E526879205000F44DF /* Assets.xcassets in Resources */,
+				B123BCF526C1778600F3AC15 /* rolling dice 2.mp3 in Resources */,
 				B1D262E326879205000F44DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
