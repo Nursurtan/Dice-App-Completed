@@ -16,8 +16,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="ymC-uK-9QW">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Main.backgraund" translatesAutoresizingMaskIntoConstraints="NO" id="cpc-oe-wwl">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="zGv-tN-7Q8">
                                 <rect key="frame" x="0.0" y="44" width="414" height="819"/>
@@ -83,16 +84,12 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="zGv-tN-7Q8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2hc-Eq-6Kc"/>
                             <constraint firstItem="zGv-tN-7Q8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MNn-Nu-29x"/>
                             <constraint firstAttribute="bottom" secondItem="zGv-tN-7Q8" secondAttribute="bottom" constant="33" id="OS0-X3-2DQ"/>
-                            <constraint firstItem="ymC-uK-9QW" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="Sgf-tm-fnQ"/>
-                            <constraint firstItem="ymC-uK-9QW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bzk-9x-1H2"/>
-                            <constraint firstAttribute="bottom" secondItem="ymC-uK-9QW" secondAttribute="bottom" id="coP-Bd-eoG"/>
                             <constraint firstItem="zGv-tN-7Q8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kqb-ut-ehk"/>
-                            <constraint firstItem="ymC-uK-9QW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xDV-6F-bEB"/>
                         </constraints>
                     </view>
                     <connections>
@@ -108,9 +105,9 @@
     <resources>
         <image name="Dice1" width="99" height="98"/>
         <image name="DiceLogo-removebg-preview-2" width="84.5" height="66"/>
-        <image name="background" width="213" height="213"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <image name="Main.backgraund" width="375" height="812"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

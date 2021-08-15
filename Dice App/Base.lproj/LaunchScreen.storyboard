@@ -16,17 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch" translatesAutoresizingMaskIntoConstraints="NO" id="eJZ-5K-RFP">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="X - 1-1" translatesAutoresizingMaskIntoConstraints="NO" id="eJZ-5K-RFP">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="eJZ-5K-RFP" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="9tV-iO-Rr3"/>
-                            <constraint firstAttribute="bottom" secondItem="eJZ-5K-RFP" secondAttribute="bottom" id="Gib-Cx-nlp"/>
-                            <constraint firstAttribute="trailing" secondItem="eJZ-5K-RFP" secondAttribute="trailing" id="Meg-yr-7Qr"/>
-                            <constraint firstItem="eJZ-5K-RFP" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="ShY-og-AKq"/>
+                            <constraint firstItem="eJZ-5K-RFP" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="HTx-G2-SQe"/>
+                            <constraint firstItem="eJZ-5K-RFP" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="LCm-1Q-hgF"/>
+                            <constraint firstAttribute="bottom" secondItem="eJZ-5K-RFP" secondAttribute="bottom" id="Lnf-b2-gcK"/>
+                            <constraint firstItem="eJZ-5K-RFP" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Tuc-vo-1pq"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -36,7 +36,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Launch" width="75" height="75"/>
+        <image name="X - 1-1" width="375" height="812"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
