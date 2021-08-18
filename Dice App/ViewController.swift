@@ -10,16 +10,15 @@ import AVFoundation
 
 class ViewController: UIViewController {
     var audioPlayer:AVAudioPlayer?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
     @IBOutlet weak var diceImageViewOne: UIImageView!
     
     @IBOutlet weak var diceImageViewTwo: UIImageView!
     
     @IBAction func rollButtonPressed(_sender: UIButton) {
+        
         // Getting the url
         let url = Bundle.main.url(forResource: "rolling dice 2", withExtension: "mp3")
         // Make sure that we've got the url, otherwise abord
